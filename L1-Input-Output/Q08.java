@@ -3,25 +3,25 @@ import java.util.Scanner;
 public class Q08 {
     public static void main(String[] args) {
 
-        Scanner tec = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
-        System.out.print("Valor de a: ");
-        double a = tec.nextDouble();
+        System.out.print("Value of a: ");
+        double a = input.nextDouble();
 
-        System.out.print("Valor de b: ");
-        double b = tec.nextDouble();
+        System.out.print("Value of b: ");
+        double b = input.nextDouble();
 
-        System.out.print("Valor de c: ");
-        double c = tec.nextDouble();
+        System.out.print("Value of c: ");
+        double c = input.nextDouble();
 
-        System.out.print("Valor de x: ");
-        double x = tec.nextDouble();
+        System.out.print("Value of x: ");
+        double x = input.nextDouble();
 
-        tec.close();
+        input.close();
         System.out.println();
 
         double y = (a * Math.pow(x, 2)) + (b * x) + c;
-        System.out.printf("O valor de y é: %.1f", y);
+        System.out.printf("The value of y is: %.1f", y);
 
     }
 }

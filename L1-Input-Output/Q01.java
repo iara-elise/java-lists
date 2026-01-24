@@ -3,46 +3,46 @@ import java.util.Scanner;
 public class Q01 {
     public static void main(String[] args) {
         
-        Scanner tec = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
-        System.out.println("Insira dois números: ");
+        System.out.println("Enter two numbers: ");
 
-        int num_01 = tec.nextInt();
-        int num_02 = tec.nextInt();
+        int firstNum = input.nextInt();
+        int secondNum = input.nextInt();
 
-        tec.close();
+        input.close();
         System.out.println();
 
-        /* SOMA */
+        /* ADDITION */
 
-        System.out.println("SOMA");
+        System.out.println("ADDITION");
 
-        int soma = num_01 + num_02;
-        System.out.println("RESULTADO: " + soma + "\n");
-
-
-        /* SUBTRAÇÃO */
-
-        System.out.println("SUBTRAÇÃO");
-
-        int subtracao = num_01 - num_02;
-        System.out.println("RESULTADO: " + subtracao + "\n");
+        int sum = firstNum + secondNum;
+        System.out.println("RESULT: " + sum + "\n");
 
 
-        /* MULTIPLICAÇÃO */
+        /* SUBTRACTION */
 
-        System.out.println("MULTIPLICAÇÃO");
+        System.out.println("SUBTRACTION");
 
-        int multiplicacao = num_01 * num_02;
-        System.out.println("RESULTADO: " + multiplicacao + "\n");
+        int subtraction = firstNum - secondNum;
+        System.out.println("RESULT: " + subtraction + "\n");
 
 
-        /* DIVISÃO */
+        /* MULTIPLICATION */
 
-        System.out.println("DIVISÃO");
+        System.out.println("MULTIPLICATION");
 
-        int divisao = num_01 / num_02;
-        System.out.println("RESULTADO: " + divisao + "\n");
+        int multiplication = firstNum * secondNum;
+        System.out.println("RESULT: " + multiplication + "\n");
+
+
+        /* DIVISION */
+
+        System.out.println("DIVISION");
+
+        int division = firstNum / secondNum;
+        System.out.println("RESULT: " + division + "\n");
 
     }
 }

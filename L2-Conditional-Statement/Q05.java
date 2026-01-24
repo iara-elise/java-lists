@@ -8,25 +8,25 @@ import java.util.Scanner;
 public class Q05 {
     public static void main(String[] args) {
         
-        Scanner tec = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
-        System.out.println("Insira dois números inteiros: ");
+        System.out.println("Enter two integers: ");
 
-        int num_01 = tec.nextInt();
-        int num_02 = tec.nextInt();
+        int firstNumber = input.nextInt();
+        int secondNumber = input.nextInt();
 
-        tec.close();
+        input.close();
 
-        int diferenca;
+        int difference;
 
-        if (num_01 > num_02) {
-            diferenca = num_01 - num_02;
-            System.out.print("A diferença entre " + num_01 + " e " + num_02 + " é " + diferenca);
+        if (firstNumber > secondNumber) {
+            difference = firstNumber - secondNumber;
+            System.out.print("The difference between " + firstNumber + " and " + secondNumber + " is " + difference);
         }
 
         else {
-            diferenca = num_02 - num_01;
-            System.out.print("A diferença entre " + num_02 + " e " + num_01 + " é " + diferenca);
+            difference = secondNumber - firstNumber;
+            System.out.print("The difference between " + secondNumber + " and " + firstNumber + " is " + difference);
         }
     }
 }

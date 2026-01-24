@@ -10,19 +10,19 @@ import java.util.Scanner;
 public class Q03 {
     public static void main(String[] args) {
         
-        Scanner tec = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
-        System.out.print("Insira um número entre 1 e 10: ");
-        int num = tec.nextInt();
+        System.out.print("Enter a number between 1 and 10: ");
+        int number = input.nextInt();
 
-        tec.close();
+        input.close();
 
-        if (num >= 1 && num <= 10) {
-            System.out.print("O número digitado está dentro da faixa selecionada.");
+        if (number >= 1 && number <= 10) {
+            System.out.print("The number entered is within the selected range.");
         }
 
         else {
-            System.out.print("O número digitado está fora da faixa selecionada.");
+            System.out.print("The number entered is outside the selected range.");
         }
 
     }

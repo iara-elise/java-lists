@@ -10,20 +10,19 @@ import java.util.Scanner;
 public class Q02 {
     public static void main(String[] args) {
         
-        Scanner tec = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
-        System.out.print("Insira um ano: ");
-        int ano = tec.nextInt();
+        System.out.print("Enter a year: ");
+        int year = input.nextInt();
 
-        tec.close();
+        input.close();
 
-        if (ano % 4 == 0 && ano % 100 != 0) {
-            System.out.print(ano + " é um ano bissexto.");
+        if (year % 4 == 0 && year % 100 != 0) {
+            System.out.print(year + " is a leap year.");
         }
 
         else {
-            System.out.print(ano + " não é um ano bissexto.");
+            System.out.print(year + " is not a leap year.");
         }
     }
-    
 }

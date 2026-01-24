@@ -11,38 +11,38 @@ import java.util.Scanner;
 public class Q01 {
     public static void main(String[] args) {
         
-        Scanner tec = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
-        System.out.print("Informe o valor do seu salário: ");
-        double salario = tec.nextDouble();
+        System.out.print("Enter your salary: ");
+        double salary = input.nextDouble();
 
-        tec.close();
+        input.close();
 
-        double valorImposto;
+        double incomeTax;
 
-        if (salario <= 1903.98) {
-            System.out.println("Você está isento de pagar o imposto de renda!");
+        // "Isento" em inglês é "Exempt"
+        if (salary <= 1903.98) {
+            System.out.println("You are exempt from income tax!");
         }
 
-        else if (salario <= 2826.65) {
-            valorImposto = 7.5 / 100 * salario;
-            System.out.printf("Valor do imposto de renda: R$ %.2f%n", valorImposto);
+        else if (salary <= 2826.65) {
+         incomeTax = (7.5 / 100) * salary;
+            System.out.printf("Income tax amount: $ %.2f%n", incomeTax);
         }
 
-        else if (salario <= 3751.05) {
-            valorImposto = 15.0 / 100 * salario;
-            System.out.printf("Valor do imposto de renda: R$ %.2f.%n", valorImposto);
+        else if (salary <= 3751.05) {
+         incomeTax = (15.0 / 100) * salary;
+            System.out.printf("Income tax amount: $ %.2f.%n", incomeTax);
         }
 
-        else if (salario <= 4664.68) {
-            valorImposto = 22.5 / 100 * salario;
-            System.out.printf("Valor do imposto de renda: R$ %.2f.%n", valorImposto);
+        else if (salary <= 4664.68) {
+         incomeTax = (22.5 / 100) * salary;
+            System.out.printf("Income tax amount: $ %.2f.%n", incomeTax);
         }
 
         else {
-            valorImposto = 27.5 / 100 * salario;
-            System.out.printf("Valor do imposto de renda: R$ %.2f.%n", valorImposto);
+         incomeTax = (27.5 / 100) * salary;
+            System.out.printf("Income tax amount: $ %.2f.%n", incomeTax);
         }
-
     }
 }

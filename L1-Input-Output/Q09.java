@@ -1,22 +1,22 @@
-
 import java.util.Scanner;
 
 public class Q09 {
     public static void main(String[] args) {
 
-        Scanner tec = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
-        System.out.printf("Peso: ");
-        double peso = tec.nextDouble();
+        System.out.print("Weight (kg): ");
+        double weight = input.nextDouble();
 
-        System.out.printf("Altura: ");
-        double altura = tec.nextDouble();
+        System.out.print("Height (m): ");
+        double height = input.nextDouble();
 
-        tec.close();
+        input.close();
         System.out.println();
 
-        double imc = peso / Math.pow(altura, 2);
-        System.out.printf("Seu IMC é: %.2f", imc);
+        double bmi = weight / Math.pow(height, 2);
+        
+        System.out.printf("Your BMI is: %.2f", bmi);
         
     }
 }

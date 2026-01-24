@@ -9,79 +9,69 @@ import java.util.Scanner;
 public class Q07 {
     public static void main(String[] args) {
 
-        Scanner tec = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
-        System.out.println("Insira três números inteiros: ");
+        System.out.println("Enter three integers: ");
 
-        int num_01 = tec.nextInt();
-        int num_02 = tec.nextInt();
-        int num_03 = tec.nextInt();
+        int num_01 = input.nextInt();
+        int num_02 = input.nextInt();
+        int num_03 = input.nextInt();
 
-        System.out.println("Como você deseja vizualizar a saída?");
-        System.out.println("1 - Ordem crescente | 2 - Ordem decrescente");
+        System.out.println("How do you want to view the output?");
+        System.out.println("1 - Ascending order | 2 - Descending order");
 
-        int ordem = tec.nextInt();
+        int choice = input.nextInt();
 
-        tec.close();
+        input.close();
 
-        if (ordem == 1) {
+        // Option 1: Ascending Order (Crescente)
+        if (choice == 1) {
             if (num_01 <= num_02 && num_01 <= num_03) {
-
                 if (num_02 <= num_03) {
-
-                    System.out.println("Números em ordem em crescente: " + num_01 + ", " + num_02 + ", " + num_03 + ".");
+                    System.out.println("Numbers in ascending order: " + num_01 + ", " + num_02 + ", " + num_03 + ".");
                 } else {
-                    System.out.println("Números em ordem em crescente: " + num_01 + ", " + num_03 + ", " + num_02 + ".");
+                    System.out.println("Numbers in ascending order: " + num_01 + ", " + num_03 + ", " + num_02 + ".");
                 }
             }
-
             else if (num_02 <= num_01 && num_02 <= num_03) {
-
                 if (num_01 <= num_03) {
-                    System.out.println("Números em ordem em crescente: " + num_02 + ", " + num_01 + ", " + num_03 + ".");
+                    System.out.println("Numbers in ascending order: " + num_02 + ", " + num_01 + ", " + num_03 + ".");
                 } else {
-                    System.out.println("Números em ordem em crescente: " + num_02 + ", " + num_03 + ", " + num_01 + ".");
+                    System.out.println("Numbers in ascending order: " + num_02 + ", " + num_03 + ", " + num_01 + ".");
                 }
             }
-
             else {
                 if (num_01 <= num_02) {
-                    System.out.println("Números em ordem em crescente: " + num_03 + ", " + num_01 + ", " + num_02 + ".");
+                    System.out.println("Numbers in ascending order: " + num_03 + ", " + num_01 + ", " + num_02 + ".");
                 } else {
-                    System.out.println("Números em ordem em crescente: " + num_03 + ", " + num_02 + ", " + num_01 + ".");
+                    System.out.println("Numbers in ascending order: " + num_03 + ", " + num_02 + ", " + num_01 + ".");
                 }
             }
         }
 
-
-        if (ordem == 2) {
+        // Option 2: Descending Order (Decrescente)
+        else if (choice == 2) {
             if (num_01 >= num_02 && num_01 >= num_03) {
-
                 if (num_02 >= num_03) {
-
-                    System.out.println("Números em ordem em decrescente: " + num_01 + ", " + num_02 + ", " + num_03 + ".");
+                    System.out.println("Numbers in descending order: " + num_01 + ", " + num_02 + ", " + num_03 + ".");
                 } else {
-                    System.out.println("Números em ordem em decrescente: " + num_01 + ", " + num_03 + ", " + num_02 + ".");
+                    System.out.println("Numbers in descending order: " + num_01 + ", " + num_03 + ", " + num_02 + ".");
                 }
             }
-
             else if (num_02 >= num_01 && num_02 >= num_03) {
-
                 if (num_01 >= num_03) {
-                    System.out.println("Números em ordem em decrescente: " + num_02 + ", " + num_01 + ", " + num_03 + ".");
+                    System.out.println("Numbers in descending order: " + num_02 + ", " + num_01 + ", " + num_03 + ".");
                 } else {
-                    System.out.println("Números em ordem em decrescente: " + num_02 + ", " + num_03 + ", " + num_01 + ".");
+                    System.out.println("Numbers in descending order: " + num_02 + ", " + num_03 + ", " + num_01 + ".");
                 }
             }
-
             else {
                 if (num_01 >= num_02) {
-                    System.out.println("Números em ordem em decrescente: " + num_03 + ", " + num_01 + ", " + num_02 + ".");
+                    System.out.println("Numbers in descending order: " + num_03 + ", " + num_01 + ", " + num_02 + ".");
                 } else {
-                    System.out.println("Números em ordem em decrescente: " + num_03 + ", " + num_02 + ", " + num_01 + ".");
+                    System.out.println("Numbers in descending order: " + num_03 + ", " + num_02 + ", " + num_01 + ".");
                 }
             }
         }
-
     }
 }

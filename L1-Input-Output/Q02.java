@@ -3,18 +3,18 @@ import java.util.Scanner;
 public class Q02 {
     public static void main(String[] args) {
 
-        Scanner tec = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
-        System.out.print("Insira a temperatura em graus Celsius: ");
+        System.out.print("Enter the temperature in Celsius: ");
 
-        double temperaturaC = tec.nextDouble();
+        double celsiusTemperature = input.nextDouble();
 
-        tec.close();
+        input.close();
         System.out.println();
 
-        double temperaturaF = (temperaturaC * 1.8) + 32;
+        double fahrenheitTemperature = (celsiusTemperature * 1.8) + 32;
 
-        System.out.println("GRAUS CELCIUS: " + temperaturaC);
-        System.out.println("GRAUS FAHRENHEIT: " + temperaturaF);        
+        System.out.println("CELSIUS DEGREES: " + celsiusTemperature);
+        System.out.println("FAHRENHEIT DEGREES: " + fahrenheitTemperature);        
     }
 }

@@ -3,18 +3,18 @@ import java.util.Scanner;
 public class Q03 {  
     public static void main(String[] args) {
         
-        Scanner tec = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
-        double PI = 3.14;
+        final double PI = 3.14;
 
-        System.out.print("Insira o valor do raio de um circulo: ");
-        double raio = tec.nextDouble();
+        System.out.print("Enter the circle radius: ");
+        double radius = input.nextDouble();
 
-        tec.close();
+        input.close();
         System.out.println();
 
-        double areaCirculo = PI * Math.pow(raio, 2);
-        System.out.println("A área do circulo é: " + areaCirculo);
+        double circleArea = PI * Math.pow(radius, 2);
+        System.out.println("The area of the circle is: " + circleArea);
 
     }
 }

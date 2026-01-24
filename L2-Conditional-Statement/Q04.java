@@ -7,21 +7,25 @@ import java.util.Scanner;
 public class Q04 {
     public static void main(String[] args) {
         
-        Scanner tec = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
-        System.out.println("Insira dois números:");
+        System.out.println("Enter two numbers:");
 
-        int num_01 = tec.nextInt();
-        int num_02 = tec.nextInt();
+        int firstNumber = input.nextInt();
+        int secondNumber = input.nextInt();
 
-        tec.close();
+        input.close();
 
-        if (num_01 > num_02) {
-            System.out.print(num_01 + " é maior que " + num_02 + ".");
+        if (firstNumber > secondNumber) {
+            System.out.print(firstNumber + " is greater than " + secondNumber + ".");
+        }
+        
+        else if (secondNumber > firstNumber) {
+            System.out.print(secondNumber + " is greater than " + firstNumber + ".");
         }
         
         else {
-            System.out.print(num_02 + " é maior que " + num_01 + ".");
+            System.out.print("The numbers are equal.");
         }
     }
 }

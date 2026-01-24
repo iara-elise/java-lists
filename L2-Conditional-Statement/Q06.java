@@ -8,44 +8,43 @@ import java.util.Scanner;
 public class Q06 {
     public static void main(String[] args) {
 
-        Scanner tec = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         
-        System.out.println("Insira três números inteiros: ");
+        System.out.println("Enter three integers: ");
 
-        int num_01 = tec.nextInt();
-        int num_02 = tec.nextInt();
-        int num_03 = tec.nextInt();
+        int num1 = input.nextInt();
+        int num2 = input.nextInt();
+        int num3 = input.nextInt();
 
-        tec.close();
+        input.close();
         
-        if (num_01 <= num_02 && num_01 <= num_03) {
+        if (num1 <= num2 && num1 <= num3) {
 
-            if(num_02 <= num_03) {
-                System.out.println("Números em ordem em crescente: " + num_01 + ", " + num_02 + ", " + num_03 + ".");
+            if(num2 <= num3) {
+                System.out.println("Numbers in ascending order: " + num1 + ", " + num2 + ", " + num3 + ".");
             }
             else {
-                System.out.println("Números em ordem em crescente: " + num_01 + ", " + num_03 + ", " + num_02 + ".");
+                System.out.println("Numbers in ascending order: " + num1 + ", " + num3 + ", " + num2 + ".");
             }
         }
 
-        else if (num_02 <= num_01 && num_02 <= num_03) {
+        else if (num2 <= num1 && num2 <= num3) {
 
-            if(num_01 <= num_03) {
-                System.out.println("Números em ordem em crescente: " + num_02 + ", " + num_01 + ", " + num_03 + ".");
+            if(num1 <= num3) {
+                System.out.println("Numbers in ascending order: " + num2 + ", " + num1 + ", " + num3 + ".");
             }
             else {
-                System.out.println("Números em ordem em crescente: " + num_02 + ", " + num_03 + ", " + num_01 + ".");
+                System.out.println("Numbers in ascending order: " + num2 + ", " + num3 + ", " + num1 + ".");
             }
         }
         
         else {
-            if(num_01 <= num_02) {
-                System.out.println("Números em ordem em crescente: " + num_03 + ", " + num_01 + ", " + num_02 + ".");
+            if(num1 <= num2) {
+                System.out.println("Numbers in ascending order: " + num3 + ", " + num1 + ", " + num2 + ".");
             }
             else {
-                System.out.println("Números em ordem em crescente: " + num_03 + ", " + num_02 + ", " + num_01 + ".");
+                System.out.println("Numbers in ascending order: " + num3 + ", " + num2 + ", " + num1 + ".");
             }
         }
-
     }
 }

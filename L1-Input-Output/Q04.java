@@ -1,23 +1,21 @@
-
 import java.util.Scanner;
 
 public class Q04 {
     public static void main(String[] args) {
 
-        Scanner tec = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
-        System.out.print("Base do triângulo: ");
-        double base = tec.nextDouble();
+        System.out.print("Triangle base: ");
+        double base = input.nextDouble();
 
-        System.out.print("Altura do triângulo: ");
-        double altura = tec.nextDouble();
+        System.out.print("Triangle height: ");
+        double height = input.nextDouble();
 
-        tec.close();
+        input.close();
         System.out.println();
 
-        double areaTriangulo = base * altura / 2;
-        System.out.print("Área do triângulo: " + areaTriangulo);
-
+        double triangleArea = (base * height) / 2;
+        System.out.print("Triangle area: " + triangleArea);
 
     }
     
