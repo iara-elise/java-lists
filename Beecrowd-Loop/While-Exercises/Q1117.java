@@ -19,7 +19,7 @@ public class Q1117 {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("");
+        System.out.println("Enter the grades:");
 
         float grades = input.nextFloat();
 
