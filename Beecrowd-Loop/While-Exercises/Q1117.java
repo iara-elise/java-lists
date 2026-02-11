@@ -19,27 +19,24 @@ public class Q1117 {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("");
-
-        float grades = input.nextFloat();
-
-        int count = 0; 
-        float sum = 0; 
+        int count = 0;
+        double sum = 0;
 
         while (count < 2) {
 
-            grades = input.nextFloat();
+           double grades = input.nextDouble();
 
-            if (grades < 0 || grades > 10) {
-                System.out.println("Invalid grade.");
-            }
-            else {
+            if (grades >= 0 && grades <= 10) {
                 count++;
                 sum += grades;
+            }
+            else {
+                System.out.println("Invalid grade.");
             }
         }
 
         input.close();
-        System.out.printf("Average: %.2f%n", sum / 2);
+
+        System.out.printf("Average: %.2f%n", sum / count);
     }
 }
