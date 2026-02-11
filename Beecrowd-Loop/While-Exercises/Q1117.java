@@ -19,8 +19,10 @@ public class Q1117 {
 
         Scanner input = new Scanner(System.in);
 
-        int count = 0;
-        double sum = 0;
+        System.out.println("Enter the grades:");
+
+        int count = 0; 
+        float sum = 0; 
 
         while (count < 2) {
 
