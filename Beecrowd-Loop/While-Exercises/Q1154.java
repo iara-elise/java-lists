@@ -16,12 +16,12 @@ public class Q1154 {
 
         int ages = input.nextInt();
 
-        int countPeoples = 0;
+        int count = 0;
         double sum = 0;
 
         while (ages >= 0) {
 
-            countPeoples++;
+            count++;
             sum += ages;
 
             ages = input.nextInt();
@@ -29,6 +29,6 @@ public class Q1154 {
 
         input.close();
 
-        System.out.printf("Average age: %.2f%n", sum / countPeoples);
+        System.out.printf("Average age: %.2f%n", sum / count);
     }
 }
