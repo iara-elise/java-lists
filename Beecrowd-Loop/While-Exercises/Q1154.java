@@ -14,6 +14,8 @@ public class Q1154 {
 
         Scanner input = new Scanner(System.in);
 
+        System.out.println("Enter some ages:");
+
         int ages = input.nextInt();
 
         int count = 0;
