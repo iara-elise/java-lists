@@ -29,14 +29,15 @@ public class Q1118 {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Enter some grades:");
-
         int newCalculation = 0;
 
         while (newCalculation != 2) {
 
             int count = 0;
             double sum = 0;
+
+            System.out.println("Enter some grades:");
+
 
             while (count < 2) {
 
@@ -51,28 +52,22 @@ public class Q1118 {
                 }
             }
 
-            System.out.printf("Average: %.2f%n", sum / count, "\n");
+            System.out.printf("Average: %.2f%n", sum / count);
+            System.out.println();
 
-            if (newCalculation < 1 || newCalculation > 2) {
+            newCalculation = 0;
 
-                System.out.println("New calculation? \n");
+            while (newCalculation < 1 || newCalculation > 2) {
+                
+                System.out.println("New calculation?");
 
                 System.out.println("+-+-+-+-+-+");
                 System.out.println("+ 1. Yes  +");
                 System.out.println("+ 2. No   +");
                 System.out.println("+-+-+-+-+-+");
 
-            newCalculation = input.nextInt();
+                newCalculation = input.nextInt();
             }
-
-            System.out.println("New calculation?");
-
-            System.out.println("+-+-+-+-+-+");
-            System.out.println("+ 1. Yes  +");
-            System.out.println("+ 2. No   +");
-            System.out.println("+-+-+-+-+-+");
-
-            newCalculation = input.nextInt();
 
         }
 
