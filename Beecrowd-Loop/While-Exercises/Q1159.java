@@ -1,4 +1,4 @@
-/*Beecrowd - QUESTÃO 1159 */
+/*Beecrowd - Questão 1159 */
 
 /* O programa deve ler um valor inteiro X indefinidas vezes. (O programa irá parar quando o valor de X for igual a 0).
 Para cada X lido, imprima a soma dos 5 pares consecutivos a partir de X, inclusive o X , se for par.
