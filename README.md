@@ -7,8 +7,15 @@ Repository containing lists of solved Java exercises, organized by fundamental p
 The purpose of this repository is to practice the basic programming concepts using the Java language. The exercise lists are organized by content, with the objective of reviewing and strengthening my technical foundation in programming.
 
 ### STRUCTURE
-- **L1-Input-Output:** Input and output exercises, aiming to practice the use of the Scanner class, decimal number formatting, and mathematical logic
-- **L2-Conditional-Statement:** Conditional statement exercises, focused on practicing the use of if, else if, and else
+- **Beecrowd-Loop**
+  - **For-Exercises:** Exercises focused on practicing the for loop.
+  - **While-Exercises:** Exercises focused on practicing the while loop.
+    
+- **L1-Input-Output:** Input and output exercises, aiming to practice the use of the Scanner class, decimal number formatting, and mathematical logic.
+  
+- **L2-Conditional-Statement:** Conditional statement exercises, focused on practicing the use of if, else if, and else.
+
+- **L3-Loop:** Loop exercises focused on practicing the for loop.
 
 ### TECHNOLOGIES USED
 - JDK
@@ -34,8 +41,15 @@ Repositório contendo listas de exercícios resolvidos em Java, organizadas por 
 Este repositório tem como finalidade praticar os conceitos básicos de programação utilizando a linguagem Java. As listas de exercícios estão organizadas por conteúdo, com o objetivo de revisar e fortalecer a minha base técnica em programação.
 
 ###  ESTRUTURA
+- **Beecrowd-Loop**
+  - **For-Exercises:** Exercícios focados na prática do uso da estrutura de repetição for.
+  - **While-Exercises:** Exercícios focados na prática do uso da estrutura de repetição while.
+    
 - **L1-Input-Output:** Exercícios de entrada e saída de dados, buscando exercitar o uso da classe Scanner, formatação de números decimais e lógica matemática.
+  
 - **L2-Conditional-Statement:** Exercícios com estruturas condicionais, focados na prática do uso de if, else if e else.
+
+- **L3-Loop:** Exercícios com estrutura de repetição, focados na prática do uso do for. 
 
 ### TECNOLOGIAS UTILIZADAS
 - JDK 
