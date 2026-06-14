@@ -27,6 +27,5 @@ public class Q1072 {
         System.out.println("Numbers outside the range: " + outCount);
 
         input.close();
-
     }
 }

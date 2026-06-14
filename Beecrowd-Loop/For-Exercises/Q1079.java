@@ -18,6 +18,7 @@ public class Q1079 {
 
             System.out.printf("Average:  %.1f", average);
         }
+        
         input.close();
     }
 }
