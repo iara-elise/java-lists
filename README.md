@@ -6,6 +6,11 @@ Repository containing lists of solved Java exercises, organized by fundamental p
 ### OBTECTIVE
 The purpose of this repository is to practice the basic programming concepts using the Java language. The exercise lists are organized by content, with the objective of reviewing and strengthening my technical foundation in programming.
 
+### DOCUMENTS
+All exercise lists solved in this repository are available in the PDF below.
+
+- [Exercises lists](https://drive.google.com/file/d/1HH9nIh2iFGvbP76zAZSxYzMW-5AIrxyI/view?usp=sharing)
+
 ### STRUCTURE
 - **Beecrowd-Loop**
   - **For-Exercises:** Exercises focused on practicing the for loop.
@@ -39,6 +44,11 @@ Repositório contendo listas de exercícios resolvidos em Java, organizadas por 
 
 ### OBJETIVO
 Este repositório tem como finalidade praticar os conceitos básicos de programação utilizando a linguagem Java. As listas de exercícios estão organizadas por conteúdo, com o objetivo de revisar e fortalecer a minha base técnica em programação.
+
+### DOCUMENTOS
+Todas as listas de exercícios resolvidas neste repositório estão disponíveis no PDF abaixo.
+
+- [Listas de exercícios](https://drive.google.com/file/d/1HH9nIh2iFGvbP76zAZSxYzMW-5AIrxyI/view?usp=sharing)
 
 ###  ESTRUTURA
 - **Beecrowd-Loop**
