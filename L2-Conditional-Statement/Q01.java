@@ -20,7 +20,6 @@ public class Q01 {
 
         double incomeTax;
 
-        // "Isento" em inglês é "Exempt"
         if (salary <= 1903.98) {
             System.out.println("You are exempt from income tax!");
         }
