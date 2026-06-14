@@ -5,7 +5,7 @@ public class Q16 {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Enter a number: ");
+        System.out.print("Enter a number: ");
 
         int num = input.nextInt();
 
