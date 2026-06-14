@@ -34,6 +34,5 @@ public class Q1115 {
         }
 
         input.close();
-
     }
 }

@@ -48,7 +48,6 @@ public class Q1118 {
         }
 
         input.close();
-
     }
 
 }

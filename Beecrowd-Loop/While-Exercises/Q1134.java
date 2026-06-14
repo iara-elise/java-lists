@@ -41,7 +41,6 @@ public class Q1134 {
         System.out.println("+ Diesel: " + dieselCount + "       +");
         System.out.println("+-+-+-+-+-+-+-+-+-+");
 
-
         input.close();
     }
 }

@@ -28,7 +28,6 @@ public class Q1159 {
         }
 
         input.close();
-
     }
 
 }
