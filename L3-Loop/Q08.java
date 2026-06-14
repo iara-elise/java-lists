@@ -1,8 +1,3 @@
-/* QUESTÃO 08 */
-
-/* Escreva um algoritmo que solicite do usuário um número correspondente à quantidade de valores que o usuário fornecerá para o algoritmo.
-Ao final, o algoritmo deverá informar quantos números pares foram digitados. */
-
 import java.util.Scanner;
 
 public class Q08 {

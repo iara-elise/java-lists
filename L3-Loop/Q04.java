@@ -1,7 +1,3 @@
-/* QUESTÃO 04 */
-
-/* Escreva um algoritmo que solicite do usuário 10 números e ao final imprima na tela o somatório desses números. */
-
 import java.util.Scanner;
 
 public class Q04 {

@@ -1,8 +1,3 @@
-/* QUESTÃO 15 */
-
-/* Escreva um algoritmo que solicite números ao usuário e conte quantos desses são pares e quantos são ímpares,
-até que seja digitado um número negativo. Ao final imprima na tela quantos números pares e ímpares foram digitados. */
-
 import java.util.Scanner;
 
 public class Q15 {
@@ -35,6 +30,5 @@ public class Q15 {
 
         System.out.println("Total number of even numbers entered: " + evenCount);
         System.out.println("Total number of odd numbers entered: " + oddCount);
-
     }
 }

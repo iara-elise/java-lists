@@ -1,9 +1,3 @@
-/* QUESTÃO 09 */
-
-/* Escreva um algoritmo que solicite do usuário 10 valores. O algoritmo deverá calcular a soma da sequência de valores pares
-e dos valores ímpares, ou seja, somar o 1° número digitado com o 3°, 5°, 7° e 9° e o mesmo para os números pares.
-Após, informar se o somatório dos números ímpares é maior, igual ou menor do que o dos números pares. */
-
 import java.util.Scanner;
 
 public class Q09 {
@@ -40,6 +34,5 @@ public class Q09 {
         else {
             System.out.println("The sum of numbers in odd positions and even positions is equal.");
         }
-
     }
 }

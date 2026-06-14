@@ -1,7 +1,3 @@
-/* QUESTÃO 07 */
-
-/* Escreva um algoritmo que solicite do usuário 5 valores e ao final apresente na tela o somatório dos valores pares que foram digitados. */
-
 import java.util.Scanner;
 
 public class Q07 {
@@ -23,6 +19,5 @@ public class Q07 {
         
         input.close();
         System.out.println("Sum of even numbers: " + sum);
-        
     }
 }

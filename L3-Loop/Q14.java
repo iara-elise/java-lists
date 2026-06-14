@@ -1,20 +1,3 @@
-/* QUESTÃO 14 */
-
-/* Escreva um algoritmo que solicite ao usuário um número inteiro e depois imprima uma sequência de caracteres que represente um triângulo.
-Exemplo:
-
-Entrada: 3
-
-Saída:
-
-*
-* *
-* * *
-* *
-*
-
-*/
-
 import java.util.Scanner;
 
 public class Q14 {
@@ -43,5 +26,4 @@ public class Q14 {
         }
 
     }
-    
 }

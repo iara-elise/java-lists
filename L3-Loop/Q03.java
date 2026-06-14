@@ -1,8 +1,3 @@
-/* QUESTÃO 03 */
-
-/* Escreva um algoritmo que solicite ao usuário dois valores para determinação de um intervalo.
-Ao final o algoritmo deverá imprimir todos os números desse intervalo e o somatório deles. */
-
 import java.util.Scanner;
 
 public class Q03 {
@@ -26,6 +21,5 @@ public class Q03 {
         }
 
         System.out.println("Sum of entered numbers: " + sum);
-
     }
 }

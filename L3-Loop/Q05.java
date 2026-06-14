@@ -1,7 +1,3 @@
-/* QUESTÃO 05 */
-
-/* Escreva um algoritmo que solicite do usuário 5 valores e ao final apresente na tela o somatório dos valores menores que 10. */
-
 import java.util.Scanner;
 
 public class Q05 {
