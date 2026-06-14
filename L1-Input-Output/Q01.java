@@ -43,6 +43,5 @@ public class Q01 {
 
         int division = firstNum / secondNum;
         System.out.println("RESULT: " + division + "\n");
-
     }
 }

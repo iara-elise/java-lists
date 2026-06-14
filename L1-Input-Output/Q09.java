@@ -17,6 +17,5 @@ public class Q09 {
         double bmi = weight / Math.pow(height, 2);
         
         System.out.printf("Your BMI is: %.2f", bmi);
-        
     }
 }

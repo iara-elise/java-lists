@@ -16,7 +16,6 @@ public class Q04 {
 
         double triangleArea = (base * height) / 2;
         System.out.print("Triangle area: " + triangleArea);
-
     }
     
 }

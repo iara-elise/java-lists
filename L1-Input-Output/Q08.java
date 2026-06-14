@@ -22,6 +22,5 @@ public class Q08 {
 
         double y = (a * Math.pow(x, 2)) + (b * x) + c;
         System.out.printf("The value of y is: %.1f", y);
-
     }
 }

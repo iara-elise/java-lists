@@ -15,6 +15,5 @@ public class Q03 {
 
         double circleArea = PI * Math.pow(radius, 2);
         System.out.println("The area of the circle is: " + circleArea);
-
     }
 }

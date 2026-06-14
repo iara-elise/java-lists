@@ -16,6 +16,5 @@ public class Q05 {
         double sphereVolume = (4.0 / 3.0) * PI * Math.pow(radius, 3);
         
         System.out.printf("The sphere volume is: %.1f", sphereVolume);
-
     }
 }

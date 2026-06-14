@@ -21,6 +21,5 @@ public class Q06 {
 
         double average = gradesSum / gradesCount;
         System.out.printf("ARITHMETIC MEAN: %.1f", average);
-        
     }
 }
