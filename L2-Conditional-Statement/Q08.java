@@ -1,8 +1,3 @@
-/* QUESTÃO 8 */
-
-/* Escreva um programa que leia três valores e determine se eles podem formar um triângulo.
-Caso possam, classifique o triângulo como equilátero, isósceles ou escaleno. */
-
 import java.util.Scanner;
 
 public class Q08 {

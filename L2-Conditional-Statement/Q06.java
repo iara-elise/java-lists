@@ -1,8 +1,3 @@
-/* QUESTÃO 6 */
-
-/*  Escreva um programa que solicita ao usuário 3 valores inteiros. Em seguida o pro-
-grama deverá exibir os 3 valores digitados pelo usuário em ordem crescente. */
-
 import java.util.Scanner;
 
 public class Q06 {

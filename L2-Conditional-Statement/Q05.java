@@ -1,8 +1,3 @@
-/* QUESTÃO 5 */
-
-/* Escreva um programa que leia dois valores inteiros e escreva como saída a diferença
-entre o maior valor e o menor valor. */
-
 import java.util.Scanner;
 
 public class Q05 {

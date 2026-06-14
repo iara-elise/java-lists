@@ -1,7 +1,3 @@
-/* QUESTÃO 4 */
-
-/* Escreva um programa que dado dois valores informe qual deles é o maior. */
-
 import java.util.Scanner;
 
 public class Q04 {
