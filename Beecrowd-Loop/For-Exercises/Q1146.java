@@ -18,7 +18,6 @@ public class Q1146 {
 
             System.out.println();
             x = input.nextInt();
-
         }
 
         input.close();
